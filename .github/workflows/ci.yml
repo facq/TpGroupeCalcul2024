@@ -4,8 +4,7 @@ on: pull_request
 
 jobs:
   tests:
-    runs-on: ubuntu-latest
-    os: macos-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
       - name: setup-pixi
