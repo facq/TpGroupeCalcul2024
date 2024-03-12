@@ -4,6 +4,7 @@ on: pull_request
 
 jobs:
   pre-commit:
+    runs-on: ubuntu-latest
     steps:
       - pre-commit run --all-files
   tests:
